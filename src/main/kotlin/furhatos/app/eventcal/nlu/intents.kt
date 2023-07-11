@@ -16,8 +16,22 @@ open class AddEventIntent : Intent(), TextGenerator {
     override fun getExamples(lang: Language): List<String> {
         return listOf(
             "Add @eventType on @eventDate at @eventTime to my calendar.",
+            "@eventDate at @time @eventType",
+            "@eventDate @time @eventType",
+            "@eventDate @eventType, @time",
+            "@time, @eventDate, @eventType",
+            "@time @eventType @eventDate",
             "@eventType on @eventDate at @time",
+            "@eventType @eventDate @time",
+            "@eventType at @time on @eventDate",
+            "@eventType @time @eventDate",
             "@eventType on @eventDate",
+            "@eventType @eventDate",
+            "@eventDate @eventType",
+            "@eventType @time",
+            "@time @eventType",
+            "@time @eventDate",
+            "@eventDate @time",
             "@eventType", "@eventDate", "@time"
         )
     }

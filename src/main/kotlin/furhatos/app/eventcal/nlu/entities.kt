@@ -8,7 +8,7 @@ import furhatos.util.Language
 class Event : EnumEntity(speechRecPhrases = true) {
 
     override fun getEnum(lang: Language): List<String> {
-        return listOf("breakfast", "brunch", "lunch", "dinner", "shopping", "movies", "theater", "drinks", "girls night out")
+        return listOf("breakfast", "brunch", "lunch", "dinner", "shopping", "movies", "theater", "drinks", "girls night out", "party")
     }
 
 }
