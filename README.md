@@ -1,11 +1,11 @@
-# Skill
-Template skill
+# EventCal Skill
+Slot-Filling skill
 
 ## Description
-This is a skill template, see [the docs](https://docs.furhat.io/skills/#the-contents-of-a-skill) for a breakdown of the content. 
-For more example skills go to [our Github](https://github.com/FurhatRobotics/)
+Let the user add en Event to a calendar. Slots to fill are Event Date, Time and Type. A forth boolean slot, Reminder, determines if a reminder is added and subsequently if the fifth slot, the reminder time has to be filled.
+
 
 ## Usage
-Max number of users is set to: 2
+Max number of users is set to: 1
 Default interaction distance is set to: 1 m
 No other specific requirements. 
